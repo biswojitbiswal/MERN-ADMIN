@@ -1,0 +1,45 @@
+#service-page{
+    display: flex !important;
+    flex-direction: column;
+    /* background-color: rgb(171, 204, 233); */
+    height: auto;
+    /* color: rgb(23, 94, 157); */
+}
+.service-container{
+    width: 70%;
+    /* background-color: red; */
+}
+.card-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.heading h1{
+    font-size: 2rem;
+    margin: 1rem;
+    color: rgb(23, 94, 157);
+}
+
+.card{
+    width: 350px;
+    height: auto;
+    border: 2px solid rgb(23, 94, 157);
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: .5rem;
+    text-align: center;
+}
+.card-img img{
+    width: 250px;   
+    margin-bottom: .5rem; 
+}
+.card-details {
+    padding: 1rem 2rem 1rem 1rem;
+    line-height: 1.75rem;
+    text-align: start;
+}
+.card h2{
+    color: rgb(23, 94, 157);
+    font-size: 1.5rem;
+}
+

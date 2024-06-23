@@ -1,0 +1,39 @@
+#navbar{
+    background-color: aliceblue;
+    top: 0;
+    
+}
+.container{
+    padding: 0 3rem 0 3rem;
+    background-color: aliceblue;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-name a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(23, 94, 157);
+
+}
+ul{
+    display: flex;
+    gap: 3rem;
+}
+li{
+    list-style: none;
+}
+li .navlink{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(23, 94, 157);
+}
+.hovering{
+    border-bottom: 2px solid rgb(23, 94, 157);
+    color: rgb(23, 94, 157);
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: .15rem;
+}

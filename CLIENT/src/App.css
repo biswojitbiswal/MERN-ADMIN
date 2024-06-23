@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: rgb(3, 20, 35); */
+}
+section{
+  background-color: rgb(171, 204, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 77vh;
+}
+.btns{
+  display: flex;
+  gap: 1rem;
+}
+.btn{
+  width: 180px;
+  height: 40px;
+  border: none;
+  background-color: rgb(23, 94, 157);
+  color: white;
+  border-radius: .75rem;
+  font-size: 1.3rem;
+}
+.btn:hover{
+  border: 2px solid rgb(23, 94, 157);
+  border-radius: .75rem;
+  background-color: transparent;
+  color: rgb(23, 94, 157);
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+label{
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+}
+input{
+  height: 30px;
+  border: none;
+  border-radius: .5rem;
+  padding: 0 0 0 1rem;
+}
+
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  border: 2px solid rgb(23, 94, 157);
+}
+
+/* Style table headers */
+th {
+  background-color: rgb(23, 94, 157);
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style table rows */
+td {
+  padding: 8px;
+  border-bottom: 1px solid rgb(23, 94, 157);
+}
+thead tr{
+  color: white;
+}
+
+
+/* Style links */
+.admin-edit-btn {
+  text-decoration: none;
+  color: #007bff;
+  background-color: rgb(23, 94, 157);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style delete button */
+button {
+  background-color: rgb(23, 94, 157);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+#about-page{
+    /* background-color: rgb(171, 204, 233); */
+    /* color: rgb(23, 94, 157); */
+    
+    display: flex;
+    height: 77vh;
+    justify-content: center;
+    align-items: center;
+}
+.about-container{
+    width: 70%;
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+}
+.about-info{
+    width : 50%;
+    height: 100%;
+    p{
+        font-size: 1.2rem;
+        margin: .5rem;
+        line-height: 1.5rem;
+        /* font-weight: 600; */
+    }
+    h1{
+        font-size: 2rem;
+        margin: .5rem;
+        font-weight: 700;
+    }
+    .about-btns{
+        margin: 1rem 1rem 1rem .5rem;
+    }
+    .about-btn{
+        border: none;
+        background-color: rgb(23, 94, 157);
+        color: white;
+    }
+    .about-btn:hover{
+        border: 2px solid rgb(23, 94, 157);
+        background-color: transparent;
+        color: rgb(23, 94, 157);
+    }
+}
+
+.about-image img{
+    width: 500px;
+    padding: 1rem;
+    height: 450px;
+}
+

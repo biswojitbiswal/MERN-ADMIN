@@ -1,0 +1,23 @@
+.login-container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+.login-image{
+    width: 50%;
+}
+.login-image img{
+    width: 500px;
+    height: 500px;
+}
+.login-form{
+    width: 50%;
+
+    h1{
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+}
