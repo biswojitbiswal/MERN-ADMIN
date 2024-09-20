@@ -29,7 +29,7 @@ export const AuthContextProvider = ({ children }) => {
     const userAuthentication = async () => {
         try {
             setIsLoading(true)
-            const response = await fetch(`http://localhost:4000/api/user/auth`, {
+            const response = await fetch(`https://servicebase-api.vercel.app/api/user/auth`, {
                 method: "GET",
                 headers: {
                     Authorization: authoriztionToken,
@@ -53,7 +53,7 @@ export const AuthContextProvider = ({ children }) => {
 
     const getServices = async () => {
         try {
-            const response = await fetch(`http://localhost:4000/api/service`, {
+            const response = await fetch(`https://servicebase-api.vercel.app/api/service`, {
                 method: "GET"
             })
 
