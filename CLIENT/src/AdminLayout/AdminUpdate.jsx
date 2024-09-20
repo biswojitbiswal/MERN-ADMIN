@@ -22,11 +22,11 @@ function AdminUpdate() {
                 },
             });
             const data = await response.json();
-            console.log(data);
+            console.log(data.data);
             setUser({
-                username: data.username,
+                username: data.data.username,
                 email: data.email,
-                phone: data.phone
+                phone: data.data.phone
             });
         } catch (error) {
             console.log(error)
