@@ -12,7 +12,7 @@ function AdminUser() {
 
   const getAllUserData = async () => {
     try {
-      const response = await fetch(`http://localhost:4000/api/admin/users`, {
+      const response = await fetch(`https://servicebase-api.vercel.app/api/admin/users`, {
         method: "GET",
         headers: {
           Authorization: authoriztionToken,
@@ -38,7 +38,7 @@ function AdminUser() {
 
   const deleteUser = async(id) => {
     try {
-      const response = await fetch(`http://localhost:4000/api/admin/users/delete/${id}`, {
+      const response = await fetch(`https://servicebase-api.vercel.app/api/admin/users/delete/${id}`, {
         method: "DELETE",
         headers: {
           Authorization: authoriztionToken,

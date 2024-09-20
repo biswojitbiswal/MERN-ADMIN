@@ -35,7 +35,7 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch(`http://localhost:4000/api/contact/form`, {
+      const response = await fetch(`https://servicebase-api.vercel.app/api/contact/form`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

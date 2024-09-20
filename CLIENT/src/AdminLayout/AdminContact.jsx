@@ -35,7 +35,7 @@ function AdminContact() {
 
   const deleteContact = async(id) => {
     try {
-      const response = await fetch(`http://localhost:4000/api/admin/contacts/delete/${id}`, {
+      const response = await fetch(`https://servicebase-api.vercel.app/api/admin/contacts/delete/${id}`, {
         method:"DELETE",
         headers: {
           Authorization: authoriztionToken,
