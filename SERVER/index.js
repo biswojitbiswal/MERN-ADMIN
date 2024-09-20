@@ -26,6 +26,10 @@ app.use("/api/admin", adminRouter)
 
 app.use(errorMiddleware)
 
+app.get("/", (req, res) => {
+    res.send("Express on Vercel");
+
+});
 
 connectDB()
 .then(() => {
