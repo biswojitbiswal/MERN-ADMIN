@@ -43,21 +43,20 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-        <Routes>
+      <Routes>
         <Route path='/' element={<Home />} />
-  //       <Route path='about' element={<About />} />
-  //       <Route path='contact' element={<Contact />} />
-  //       <Route path='services' element={<Services />} />
-  //       <Route path='register' element={<Registration />} />
-  //       <Route path='login' element={<Login />} />
-  //       <Route path='logout' element={<Logout />} />
-  //       <Route path='admin' element={<AdminLayout />} >
-  //         <Route path='users' element={<AdminUser />} />
-  //         <Route path='contacts' element={<AdminContact />} />
-  //         <Route path='users/:id/edit' element={<AdminUpdate />} />
-  //       </Route>
-  //       <Route path='*' element={<Error />} />
-        </Routes>
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/register' element={<Registration />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/logout' element={<Logout />} />
+        <Route path='/admin' element={<AdminLayout />} />
+        <Route path='/admin/users' element={<AdminUser />} />         
+        <Route path='/admincontacts' element={<AdminContact />} />
+        <Route path='/admin/users/:id/edit' element={<AdminUpdate />} />
+        <Route path='*' element={<Error />} />
+      </Routes>
       <Footer />
     </BrowserRouter>
   )
