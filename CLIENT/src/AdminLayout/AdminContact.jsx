@@ -69,7 +69,7 @@ function AdminContact() {
                 <tr>
                   <th>Name</th>
                   <th>Email</th>
-                  <th>Phone</th>
+                  <th>Message</th>
                   <th>Delete</th>
                 </tr>
               </thead>
