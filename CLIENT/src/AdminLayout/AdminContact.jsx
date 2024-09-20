@@ -8,7 +8,7 @@ function AdminContact() {
 
   const getAllUserContact = async () => {
     try {
-      const response = await fetch(`http://localhost:4000/api/admin/contacts`, {
+      const response = await fetch(`https://servicebase-api.vercel.app/api/admin/contacts`, {
         method: "GET",
         headers: {
           Authorization: authoriztionToken,

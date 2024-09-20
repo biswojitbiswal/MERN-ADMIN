@@ -45,7 +45,7 @@ function AdminUpdate() {
         e.preventDefault();
 
         try {
-            const response = await fetch(`https://servicebase-api.vercel.app/api/admin/users/update/${params.id}`, {
+            const response = await fetch(`https://servicebase-api.vercel.app/api/admin/users/${params.id}/edit`, {
                 method: "PATCH",
                 headers: {
                     "Content-Type" : "application/json",
