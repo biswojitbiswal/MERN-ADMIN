@@ -15,7 +15,7 @@ function AdminUpdate() {
 
     const getSingleUserData = async () => {
         try {
-            const response = await fetch(`http://localhost:4000/api/admin/users/${id}`, {
+            const response = await fetch(`https://servicebase-api.vercel.app/api/admin/users/${id}`, {
                 method: "GET",
                 headers: {
                     Authorization: authoriztionToken,
