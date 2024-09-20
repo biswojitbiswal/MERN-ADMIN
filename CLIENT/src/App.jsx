@@ -53,7 +53,7 @@ function App() {
         <Route path='/admin' element={<AdminLayout />}>
           <Route path='users' element={<AdminUser />} />
           <Route path='contacts' element={<AdminContact />} />
-          <Route path='users/:id/edit' element={<AdminUpdate />} />
+          <Route path='users/edit/:id' element={<AdminUpdate />} />
         </Route>
         <Route path='*' element={<Error />} />
       </Routes>
