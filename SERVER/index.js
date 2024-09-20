@@ -12,10 +12,12 @@ const app = express();
 const PORT = process.env.PORT || 3000
 
 app.use(cors({
-    origin: ["https://servicebase.vercel.app/"],
+    origin: ["https://servicebase.vercel.app"],
     methods: ["GET, POST, PUT, DELETE, PATCH, HEAD"],
     credentials: true
 }))
+
+// app.options('*', cors());
 
 app.use(express.json());
 
