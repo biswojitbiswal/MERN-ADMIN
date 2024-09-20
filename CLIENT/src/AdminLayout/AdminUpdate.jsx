@@ -24,9 +24,9 @@ function AdminUpdate() {
             const data = await response.json();
             // console.log('user', data.data)
             setUser({
-                username: data.data.username,
-                email: data.data.email,
-                phone: data.data.phone
+                username: data.username,
+                email: data.email,
+                phone: data.phone
             });
         } catch (error) {
             console.log(error)
