@@ -25,7 +25,7 @@ function AdminUpdate() {
             console.log(data.data);
             setUser({
                 username: data.data.username,
-                email: data.email,
+                email: data.data.email,
                 phone: data.data.phone
             });
         } catch (error) {
