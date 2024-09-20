@@ -80,7 +80,7 @@ function AdminUser() {
                       <td>{currUser.email}</td>
                       <td>{currUser.phone}</td>
                       <td>
-                        <Link className='admin-edit-btn' to={`../users/${currUser._id}/edit`}>Edit</Link>
+                        <Link className='admin-edit-btn' to={`../users/edit/${currUser._id}`}>Edit</Link>
 
                       </td>
                       <td><button onClick={() => deleteUser(currUser._id)}>Delete</button></td>

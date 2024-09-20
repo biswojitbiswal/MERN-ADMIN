@@ -10,7 +10,7 @@ const router = Router();
 router.route("/users").get(authMiddleware, adminMiddleware, getAllUser)
 router.route("/users/delete/:id").delete(authMiddleware, adminMiddleware, deleteUserById)
 router.route("/users/:id").get(authMiddleware, adminMiddleware, getUserById)
-router.route("/users/update/:id").patch(authMiddleware, adminMiddleware, updateUserDataById)
+router.route("/users/edit/:id").patch(authMiddleware, adminMiddleware, updateUserDataById)
 router.route("/contacts").get(authMiddleware, adminMiddleware, getAllContact)
 router.route("/contacts/delete/:id").delete(authMiddleware, adminMiddleware, deleteContactById)
 
