@@ -22,7 +22,7 @@ function AdminUpdate() {
                 },
             });
             const data = await response.json();
-            // console.log('user', data.data)
+            console.log(data);
             setUser({
                 username: data.username,
                 email: data.email,
