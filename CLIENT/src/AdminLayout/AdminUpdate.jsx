@@ -15,7 +15,7 @@ function AdminUpdate() {
 
     const getSingleUserData = async () => {
         try {
-            const response = await fetch(`http://localhost:4000/api/admin/users/${params.id}`, {
+            const response = await fetch(`http://localhost:4000/api/admin/users/${params._id}`, {
                 method: "GET",
                 headers: {
                     Authorization: authoriztionToken,
@@ -45,7 +45,7 @@ function AdminUpdate() {
         e.preventDefault();
 
         try {
-            const response = await fetch(`https://servicebase-api.vercel.app/api/admin/users/${params.id}/edit`, {
+            const response = await fetch(`https://servicebase-api.vercel.app/api/admin/users/${params._id}/edit`, {
                 method: "PATCH",
                 headers: {
                     "Content-Type" : "application/json",
